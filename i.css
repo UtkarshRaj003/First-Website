@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.navbar {
+    background: rgb(0, 0, 0, 0.9) url("image/edbg.jpg") no-repeat center;
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 85px;
+    position: sticky;
+    top: 0;
+    /* opacity: 0.4; */
+}
+
+/* https://source.unsplash.com/random */
+.background {
+    background: rgb(0, 0, 0, 0.5) url("image/edbg.jpg") no-repeat center;
+    background-size: cover;
+    height: 60vh;
+    background-blend-mode: darken;
+}
+
+.r h1 {
+    position: absolute;
+    top: 5px;
+    left: 105px;
+    font-size: 55px;
+    text-decoration: underline #ff8888;
+}
+
+.r h1 a {
+    color: #ff8888;
+    text-decoration: none;
+}
+
+.r h1 a:hover {
+    cursor: pointer;
+}
+
+.r img {
+    width: 60px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    border: 2px solid black;
+    border-radius: 60px;
+}
+
+
+.a {
+    display: block;
+    max-width: 30%;
+    margin: -35px auto;
+}
+
+nav ul li {
+    color: white;
+    display: inline;
+    list-style: none;
+    padding: 0 10px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(202, 196, 196);
+    cursor: pointer;
+}
+
+.q {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+}
+
+.btn {
+    background-color: transparent;
+    color: white;
+    position: relative;
+    padding: 5px;
+    margin: 5px;
+    font-size: 17px;
+    font-weight: 900;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    border-color: black;
+    cursor: pointer;
+}
+
+.First-section {
+    height: 65vh;
+    margin-top: 0px;
+}
+
+.box-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+    margin: auto;
+    color: white;
+    height: 65%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.first-half {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.zzz {
+    flex-direction: row-reverse;
+}
+
+.second-half {
+    width: 30%;
+}
+
+.second-half img {
+    width: 70%;
+    border: 4px solid black;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.text-small {
+    font-size: 18px;
+}
+
+.fcolor {
+    color: black;
+}
+
+
+#container {
+    background: rgb(0, 0, 0, 0.3) url("image/bggg.jpg") no-repeat center;
+    background-size: cover;
+    background-blend-mode: darken;
+    margin-top: 0px;
+}
+
+#container h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    text-decoration: underline black;
+    font-weight: 900;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+
+.spcl {
+    height: 45vh;
+    margin-top: 0px;
+}
+
+/* .sp2 {
+    margin-top: 30px;
+} */
+
+.sp3 {
+    width: 30%;
+}
+
+.sp3 img {
+    width: 50%;
+    border: 4px solid black;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.contact {
+    height: 20vh;
+}
+
+.log {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logo img {
+    border: 2px solid black;
+    border-radius: 15px;
+    max-width: 170px;
+    display: block;
+    position: relative;
+    left: 35px;
+    top: 25px;
+}
+
+.contact h1 {
+    position: relative;
+    top: 30px;
+    left: 72px;
+    font-size: 75px;
+}
+
+.ll {
+    display: flex;
+    flex-direction: column;
+}
+
+.Powered {
+    position: relative;
+    top: 15px;
+    font-weight: 100;
+    font-size: 20px;
+    left: 80px;
+    padding-bottom: 5px;
+    text-decoration: underline #ff8888;
+    text-decoration-thickness: 1%;
+}
+
+#last {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: grey;
+}
+
+.follow {
+    position: relative;
+    right: 120px;
+    top: 25px;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.image img {
+    padding: 0px 16px;
+    margin-top: 35px;
+}
+
+.contact-us {
+    position: relative;
+    right: 120px;
+    top: 25px;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.small {
+    font-size: 22px;
+    font-weight: 900;
+
+}
+
+.footer {
+    height: 45px;
+    background-color: black;
+    color: whitesmoke;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 3%;
+    top: 15px;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}
