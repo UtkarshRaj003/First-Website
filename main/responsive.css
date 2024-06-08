@@ -1,0 +1,304 @@
+/* @media only screen and (max-width: 1200px) {
+    .r h1 a {
+        visibility: hidden;
+    }
+
+    .navbar {
+        height: 290px;
+    }
+
+    nav ul li a {
+        display: flex;
+        flex-direction: column;
+    }
+} */
+
+
+
+@media (max-width: 1200px) {
+    .navbar {
+        height: 290px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .r h1 {
+        font-size: 40px;
+        left: 80px;
+    }
+
+    .r h1 a {
+        visibility: hidden;
+    }
+
+    .r img {
+        width: 50px;
+        left: 10px;
+    }
+
+    .h-nav {
+        height: 72px;
+    }
+
+    .v-c {
+        opacity: 0;
+    }
+
+    .a {
+        max-width: 7%;
+        margin: -20px auto;
+    }
+
+    nav ul li {
+        font-size: 20px;
+        padding: 0 5px;
+    }
+
+    nav ul li a {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .q {
+        top: 10px;
+    }
+
+    .btn {
+        top: 40px;
+        padding: 2px;
+        margin: 2px;
+        font-size: 10px;
+        font-weight: 500;
+        border: 2px solid white;
+        border-radius: 8px;
+    }
+
+    .First-section {
+        height: 50vh;
+    }
+
+    .box-main {
+        max-width: 50%;
+        margin: auto;
+    }
+
+    .text-big {
+        font-size: 30px;
+        margin-top: 55px;
+    }
+
+    .text-small {
+        font-size: 16px;
+    }
+
+    #container h1 {
+        font-size: 35px;
+    }
+
+    .zzz {
+        flex-direction: row;
+    }
+
+    .spcl {
+        height: 50vh;
+    }
+
+    .contact-us {
+        font-size: 25px;
+    }
+
+    .contact h1 {
+        top: 29px;
+        font-size: 67px;
+        left: 0px;
+    }
+
+    .Powered {
+        font-size: 17px;
+        top: 20px;
+        left: 0px;
+    }
+
+    .logo img {
+        left: -30px;
+        top: 30px;
+        max-width: 131px;
+    }
+
+    .small {
+        font-size: 16px;
+    }
+
+    #last {
+        height: 65vh;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .follow {
+        right: 0;
+        margin-bottom: 60px;
+        font-size: 40px;
+    }
+
+    .contact-us {
+        right: 0;
+        margin-bottom: 50px;
+    }
+
+    .contact-us .p {
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 695px) {
+    .navbar {
+        height: 290px;
+        display: flex;
+        flex-direction: column
+    }
+
+    .r h1 {
+        font-size: 30px;
+        left: 60px;
+    }
+
+    .r img {
+        width: 40px;
+        left: 5px;
+    }
+
+    .h-nav {
+        height: 72px;
+    }
+
+    .v-c {
+        opacity: 0;
+    }
+
+    .a {
+        max-width: 70%;
+        margin: -15px auto;
+    }
+
+    nav ul li {
+        font-size: 18px;
+        padding: 0 3px;
+    }
+
+    .q {
+        top: 5px;
+    }
+
+    .First-section {
+        height: 50vh;
+
+    }
+
+    .box-main {
+        max-width: 80%;
+        margin: auto;
+
+    }
+
+    .first-half {
+        width: 75%;
+        display: flex;
+    }
+
+    .second-half {
+        margin-top: 100px;
+    }
+
+    .second-half img {
+        width: 125px;
+    }
+
+    .sp3 {
+        margin-top: 100px;
+    }
+
+    .sp3 img {
+        width: 65px;
+    }
+
+    .buttons .btn {
+        top: 10px;
+    }
+
+    .text-big {
+        font-size: 23px;
+        padding-top: 25px;
+    }
+
+    .text-small {
+        font-size: 14px;
+    }
+
+    #container h1 {
+        font-size: 30px;
+    }
+
+    .spcl {
+        height: 40vh;
+    }
+
+    /* .sp3 img {
+        width: 40%;
+        margin-top: -20px;
+    } */
+
+    .contact h1 {
+        top: 45px;
+        font-size: 45px;
+        left: 0px;
+    }
+
+    .Powered {
+        font-size: 15px;
+        top: 38px;
+        left: 0px;
+    }
+
+    .logo img {
+        left: -30px;
+        top: 50px;
+        max-width: 80px;
+    }
+
+    .contact-us {
+        font-size: 25px;
+    }
+
+    .small {
+        font-size: 16px;
+    }
+
+    #last {
+        height: 65vh;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .follow {
+        right: 0;
+        margin-bottom: 60px;
+        font-size: 40px;
+    }
+
+    .contact-us {
+        right: 0;
+        margin-bottom: 50px;
+    }
+
+    .contact-us .p {
+        font-size: 40px;
+    }
+}
